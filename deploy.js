@@ -3,7 +3,7 @@ const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const provider = new HDWalletProvider(
-"mistake grass casino huge usage present umbrela strik memory teach daugther wrist",
+process.env.MNEMONIC,
 process.env.INFURA_API
 
 );
